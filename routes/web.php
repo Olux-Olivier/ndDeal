@@ -21,5 +21,8 @@ Route::get('/accueil', function () {
     return view('accueil');
     //commentaire
 });
+Route::get('/collections', function(){
+    return view('acceuil');
+})
 
 
