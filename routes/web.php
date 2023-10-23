@@ -23,6 +23,4 @@ Route::get('/accueil', function () {
 });
 Route::get('/collections', function(){
     return view('acceuil');
-})
-
-
+});
