@@ -137,6 +137,23 @@ section .liens .lien a{
     color: white;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', sans-serif;
-   
 }
+/* fin partie style bienvenue */
+body .bloc_instruction{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+body .bloc_instruction .bloc{
+    width: 25%;
+    
+}
+body .bloc_instruction .bloc .texte{
+    margin-top: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+}
+
 
