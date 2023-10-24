@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+}
+
+/* debut style entete */
+section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #023047;
+    padding: 20px;
+}
+
+section .logo{
+
+}
+section .logo h1{
+    color: white;
+    margin-top: 8px;
+}
+section .logo h1 .ad{
+    color: #fb8500;
+}
+/* debut bloc recherche */
+section .recherche{
+    display: flex;
+}
+section .recherche .icon{
+    height: 30px;
+    width: 30px;
+    background: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+section .recherche .icon img{
+    width: 100%;
+    height: 100%;
+}
+section .recherche form input[type="text"]{
+    height: 40px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+section .recherche form input[type="submit"]{
+    padding: 10px;
+    background-color: #219EBC;
+    color: white;
+    border: 2px solid #219EBC;
+}
+
+/* debut bloc liens */
+section .liens{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 400px;
+}   
+section .liens .lien{
+    display: flex;
+}
+section .liens .lien div{
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+}
+section .liens .lien div img{
+    height: 100%;
+    width: 100%;
+}
+section .liens .lien a{
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
