@@ -150,10 +150,41 @@ body .bloc_instruction .bloc{
     width: 25%;
     
 }
+body .bloc_instruction .bloc .numero{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 50%;
+    width: 15%;   
+}
+body .bloc_instruction .bloc #numero_1{
+    background: #8ECAE6;
+}
+body .bloc_instruction .bloc #numero_2{
+    background: #219EBC;
+}
+body .bloc_instruction .bloc #numero_3{
+    background: #fb8500;
+}
+
+body .bloc_instruction .bloc .numero h1{
+    color: white;
+    text-align: center;
+    
+}
 body .bloc_instruction .bloc .texte{
     margin-top: 20px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     padding: 15px;
 }
 
+body .bloc_instruction .bloc .texte p{
+    text-align: justify;
+}
 
+/* fin style body */
+body .footer{
+    height: 200px;
+    background-color: #023047;
+    margin-top: 60px;
+}

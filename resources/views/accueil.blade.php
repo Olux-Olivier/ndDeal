@@ -94,27 +94,25 @@
         <div class="bloc_instruction">
             <!-- instruction 1 -->
             <div class="bloc">
-                <div class="numero">
+                <div class="numero" id="numero_1">
                     <h1>1</h1>
                 </div>
 
                 <div class="texte">
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum eligendi asperiores alias modi neque 
-                        eum excepturi nulla, quis deserunt sint corporis voluptatibus eius a nobis saepe maxime
-                         consequuntur libero sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil animi 
-                         nobis voluptate magni, culpa a modi ex molestiae 
-                         in voluptatem sequi neque? Accusantium soluta in porro distinctio amet recusandae blanditiis.
-                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione officiis libero quas dolor rem nulla 
-                         autem sed distinctio fugit ipsum. Quo magnam, sit ex ducimus magni officia esse saepe consectetur.
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste totam id cum iusto atque nobis excepturi magni accusantium
-                          consequuntur doloribus quae nihil quod officiis ipsa quas, modi laboriosam dolorem aliquid!
+                            eum excepturi nulla, quis deserunt sint corporis voluptatibus eius a nobis saepe maxime
+                            consequuntur libero sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil animi 
+                            nobis voluptate magni, culpa a modi ex molestiae 
+                            in voluptatem sequi neque? Accusantium soluta in porro distinctio amet recusandae blanditiis.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione officiis libero quas dolor rem nulla 
+                            
                     </p>
                 </div>
             </div>
 
             <!-- instruction 2 -->
             <div class="bloc">
-                <div class="numero">
+                <div class="numero" id="numero_2">
                     <h1>2</h1>
                 </div>
 
@@ -125,39 +123,34 @@
                             nobis voluptate magni, culpa a modi ex molestiae 
                             in voluptatem sequi neque? Accusantium soluta in porro distinctio amet recusandae blanditiis.
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione officiis libero quas dolor rem nulla 
-                            autem sed distinctio fugit ipsum. Quo magnam, sit ex ducimus magni officia esse saepe consectetur.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste totam id cum iusto atque nobis excepturi magni accusantium
-                            consequuntur doloribus quae nihil quod officiis ipsa quas, modi laboriosam dolorem aliquid!
+                            
                     </p>
                 </div>
             </div>
 
             <!-- instruction 3-->
             <div class="bloc">
-                <div class="numero">
+                <div class="numero" id="numero_3">
                     <h1>3</h1>
                 </div>
                 <div class="texte">
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum eligendi asperiores alias modi neque 
-                        eum excepturi nulla, quis deserunt sint corporis voluptatibus eius a nobis saepe maxime
-                         consequuntur libero sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil animi 
-                         nobis voluptate magni, culpa a modi ex molestiae 
-                         in voluptatem sequi neque? Accusantium soluta in porro distinctio amet recusandae blanditiis.
-                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione officiis libero quas dolor rem nulla 
-                         autem sed distinctio fugit ipsum. Quo magnam, sit ex ducimus magni officia esse saepe consectetur.
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste totam id cum iusto atque nobis excepturi magni accusantium
-                          consequuntur doloribus quae nihil quod officiis ipsa quas, modi laboriosam dolorem aliquid!
+                            eum excepturi nulla, quis deserunt sint corporis voluptatibus eius a nobis saepe maxime
+                            consequuntur libero sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil animi 
+                            nobis voluptate magni, culpa a modi ex molestiae 
+                            in voluptatem sequi neque? Accusantium soluta in porro distinctio amet recusandae blanditiis.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione officiis libero quas dolor rem nulla 
+                            
                     </p>
                 </div>
             </div>
         </div>
-
-        <h1>koldi koldi</h1>
-        <h1>koldi koldi</h1>
-        <h1>koldi koldi</h1>
-        <h1>koldi koldi</h1>
     </div>
     <!-- fin body -->
+
+    <div class="footer">
+        
+    </div>
 
 
     
