@@ -80,3 +80,63 @@ section .liens .lien a{
     text-decoration: none;
     margin-left: 5px;
 }
+/* fin style header */
+
+/* debut style body */
+.body .imageFond{
+    width: 100%;
+    height: 570px;
+}
+.body .imageFond img{
+    width: 100%;
+    height: 100%;
+}
+.body .bienvenue{
+    position: absolute;
+    top: 200px;
+    left: 110px;
+    width: 30%;
+}
+.body .bienvenue h1{
+    color: white;
+}
+.body .bienvenue h1 .title{
+    color: #fb8500;
+}
+.body .bienvenue .motBinevenue p{
+    color: white;
+}
+.body .bienvenue .exampleMaison{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.body .bienvenue .exampleMaison div{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.body .bienvenue .exampleMaison div img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.body .bienvenue .exampleMaison .plus{
+    background: #219EBC;
+    opacity: 0.3;
+}
+
+
+.body .bienvenue .exampleMaison .plus a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.body .bienvenue .exampleMaison .plus a h1{
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+   
+}
+

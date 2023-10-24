@@ -56,6 +56,40 @@
             </div>
         </div>
     </section>
+    <!-- fin header -->
+
+    <div class="body">
+        <div class="imageFond">
+            <img src="{{asset('img/bgAccueil.jpg')}}" alt="">
+        </div>
+
+        <div class="bienvenue">
+            <h1>Bienvenu ! <br> sur <span class="title">NYUMBADEAL</span></h1><br>
+            <div class="motBinevenue">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo esse quo obcaecati, ab repellat architecto 
+                    magnam velit earum tempore corrupti molestias ullam, minima, dolor quis eos aspernatur voluptatem 
+                    voluptatum eius. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore aliquid aliquam quis quae similique fugit adipisci incidunt 
+                    a explicabo cupiditate odio beatae corrupti voluptatibus cum, natus enim facere aspernatur dolorem.
+                </p>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="exampleMaison">
+                <div>
+                    <img src="{{asset('img/maison1.jpeg')}}" alt="">
+                </div>
+
+                <div>
+                    <img src="{{asset('img/maison2.jpeg')}}" alt="">
+                </div>
+                <div class="plus">
+                    <a href=""><h1>+</h1></a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
