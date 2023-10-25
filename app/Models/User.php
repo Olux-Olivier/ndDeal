@@ -21,10 +21,11 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
-        'prenom',
+        'first_name',
         'last_name',
-        'date_naissance',
-        'telephone',
+        'birthday',
+        'phone',
+        'address',
         'google_id',
     ];
 
