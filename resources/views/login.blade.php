@@ -14,7 +14,7 @@
         <br><br>
         <input type="submit" value="Se connecter">
         <br><br>
-        <a href="">Se connecter avec google</a>
+        <a href="/auth/google">Se connecter avec google</a>
     </form>
     <a href="/nDeal/createAccount"> Creer un compte ?</a>
 </body>

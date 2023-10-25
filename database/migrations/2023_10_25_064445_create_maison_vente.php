@@ -22,7 +22,7 @@ return new class extends Migration
             $table->string('categorie');
             $table->string('devise');
             $table->string('commune');
-            $table->interger('state');
+            $table->integer('state');
             $table->date('sale_date');
             $table->timestamps();
         });

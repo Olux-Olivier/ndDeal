@@ -29,7 +29,7 @@ class GooogleAuthController extends Controller
             }else{
                 Auth::login($user);
                 
-                return redirect()->intended('dashboard');
+                return redirect()->intended('acceuil');
             }
        }catch (\Throwable $th){
             dd('Error ...');
