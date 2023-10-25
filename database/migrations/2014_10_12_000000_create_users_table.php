@@ -22,6 +22,8 @@ return new class extends Migration
             $table->string('password')->nullable();
             $table->string('google_id')->nullable();
             $table->string('address');
+            $table->interger('state');
+            $table->date('sale_date');
             $table->rememberToken();
             $table->timestamps();
         });
