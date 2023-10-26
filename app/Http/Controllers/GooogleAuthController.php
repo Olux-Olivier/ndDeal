@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Laravel\Socialite\Facades\Socialite;
 
 class GooogleAuthController extends Controller
@@ -15,21 +17,23 @@ class GooogleAuthController extends Controller
         try{
             $google_user = Socialite::driver('google')->user();
             $user = User::where('google_id', $google_user->getId())->first();
-            dd($google_user);
+            
             if(!$user){
+                
                 $new_user = User::create([
                     'name' => $google_user->getName(),
                     'email' => $google_user->getEmail(),
                     'google_id' => $google_user->getId(),
                 ]);
 
+                
                 Auth::login($new_user);
-               
-                return redirect()->intended('completeform');
+                
+                return redirect()->intended('/nDeal/completeform');
             }else{
                 Auth::login($user);
                 
-                return redirect()->intended('acceuil');
+                return redirect()->intended('/nDeal/accueil');
             }
        }catch (\Throwable $th){
             dd('Error ...');

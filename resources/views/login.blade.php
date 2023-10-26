@@ -6,11 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
+    <form action=""  method="POST">
         @csrf
-        <input type="email">
+        <input type="email" name="email">
         <br><br>
-        <input type="password">
+        <input type="password" name="password">
         <br><br>
         <input type="submit" value="Se connecter">
         <br><br>

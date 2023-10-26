@@ -15,13 +15,13 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('first_name')->nullable();
-            $table->string('second_name')->nullable();
+            $table->string('last_name')->nullable();
             $table->string('email')->nullable();
             $table->date('birthday')->nullable();
             $table->string('phone')->nullable();
             $table->string('password')->nullable();
             $table->string('google_id')->nullable();
-            $table->string('address');
+            $table->string('address')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });
