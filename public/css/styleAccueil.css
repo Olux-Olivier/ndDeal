@@ -16,14 +16,12 @@ section{
 }
 
 section .logo{
-
+    height: 40px;
+    width: 300px;
 }
-section .logo h1{
-    color: white;
-    margin-top: 8px;
-}
-section .logo h1 .ad{
-    color: #fb8500;
+section .logo img{
+    height: 100%;
+    width: 100%;
 }
 /* debut bloc recherche */
 section .recherche{
@@ -184,7 +182,30 @@ body .bloc_instruction .bloc .texte p{
 
 /* fin style body */
 body .footer{
-    height: 200px;
     background-color: #023047;
     margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+body .footer .bloc_1, body .footer .bloc_2, body .footer .bloc_3{
+    width: 30%;
+}
+body .footer .bloc_1 .logo_footer{
+    height: 40px;
+    width: 300px;
+}
+body .footer .bloc_1 .logo_footer img{
+    height: 100%;
+    width: 100%;
+}
+
+
+body .footer .bloc_1 .texte{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+body .footer .bloc_1 .texte p{
+    width: 100%;
+    color: white;
 }

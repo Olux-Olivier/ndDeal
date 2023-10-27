@@ -9,7 +9,7 @@
 <body>
     <section class="header">
         <div class="logo">
-            <h1>NYUMB<span class="ad">AD</span>EAL</h1>
+            <img src="{{asset('img/logo1.png')}}" alt="">
         </div>
 
         <div class="recherche">
@@ -149,10 +149,57 @@
     <!-- fin body -->
 
     <div class="footer">
-        
-    </div>
+        <div class="bloc_1">
+            <div class="logo_footer">
+                <img src="{{asset('img/logo1.png')}}" alt="">
+            </div>
 
+            <div class="texte">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro aut qui quam perferendis repellendus rerum
+                     atque dolores,
+                     esse illum sequi libero corporis molestiae itaque deserunt, dicta at officiis tenetur unde?
+                      
+                </p>
+            </div>
 
-    
+            <div class="logo_medias">
+                <a href=""><div><img src="" alt=""></a></div>
+                <a href=""><div><img src="" alt=""></a></div>
+                <a href=""><div><img src="" alt=""></a></div>
+                <<a href=""><div><img src="" alt=""></a></div>
+                <a href=""><div><img src="" alt=""></a></div>
+            </div>
+        </div>
+
+        <div class="bloc_2">
+            <div>
+                <p>A propos</p>
+                <div class="icon">
+                    <img src="" alt="">
+                </div>
+            </div>
+
+            <div class="liens_footer">
+                <a href="">Quis sommes-nous</a>
+                <a href="">Objectifs</a>
+                <a href="">Core-team</a>
+            </div>
+        </div>
+
+        <div class="bloc_3">
+            <div>
+                <p>Liens essentiels</p>
+                <div class="icon">
+                        <img src="" alt="">
+                </div>
+            </div>
+
+            <div>
+                <a href="">Accueil</a>
+                <a href="">Collection</a>
+                <a href="">Connecxion</a>
+            </div>
+        </div>
+    </div>  
 </body>
 </html>
