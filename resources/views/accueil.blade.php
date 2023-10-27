@@ -54,6 +54,14 @@
                 </div>
                 <a href="">Alerte</a>
             </div>
+
+            <!-- lien 5 -->
+            <div class="lien">
+                <div>
+                    <img src="{{asset('img/dashboard.png')}}" alt="">
+                </div>
+                <a href="">Dashboard</a>
+            </div>
         </div>
     </section>
     <!-- fin header -->
@@ -146,6 +154,73 @@
             </div>
         </div>
     </div>
+
+    <div class="team">
+        <div class="title">
+            <p>TEAM</p>
+            <h1>CONSULTER NOTRE EQUIPE</h1>
+        </div>
+
+        <div class="images">
+            <div class="image_1">
+                <div class="photo">
+                    <img src="{{asset('img/koldi.jpg')}}" alt="">
+                </div>
+
+                <div>
+                    <p>Olivier Kasongo</p>
+                    <div class="ligne"></div>
+
+                    <div class="profil">
+                        <p class="fonction">Developper Web</p>
+                        <div class="liens_logo">
+                            <div>
+                                <img src="" alt="">
+                            </div>
+                            <div>
+                                <img src="" alt="">
+                            </div>
+                            <div>
+                                <img src="" alt="">
+                            </div>
+                            <div>
+                                <img src="" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="image_2">
+                <div class="photo">
+                    <img src="" alt="">
+                </div>
+                <div>
+                    <p>Gopher Kaseya</p>
+                    <div class="ligne"></div>
+                    <div class="profil">
+                        <p class="fonction">Developper Web</p>
+                        <div class="liens_logo">
+                            <div>
+                                <img src="" alt="">
+                            </div>
+                            <div>
+                                <img src="" alt="">
+                            </div>
+                            <div>
+                                <img src="" alt="">
+                            </div>
+                            <div>
+                                <img src="" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
     <!-- fin body -->
 
     <div class="footer">
@@ -163,16 +238,15 @@
             </div>
 
             <div class="logo_medias">
-                <a href=""><div><img src="" alt=""></a></div>
-                <a href=""><div><img src="" alt=""></a></div>
-                <a href=""><div><img src="" alt=""></a></div>
-                <<a href=""><div><img src="" alt=""></a></div>
-                <a href=""><div><img src="" alt=""></a></div>
+                <a href=""><div><img src="{{asset('img/facebook.png')}}" alt=""></div></a>
+                <a href=""><div><img src="{{asset('img/whatsapp.png')}}" alt=""></div></a>
+                <a href=""><div><img src="{{asset('img/linkedin.png')}}" alt=""></div></a>
+                <a href=""><div><img src="{{asset('img/instagram.png')}}" alt=""></div></a>
             </div>
         </div>
 
         <div class="bloc_2">
-            <div>
+            <div class="apropos">
                 <p>A propos</p>
                 <div class="icon">
                     <img src="" alt="">
@@ -187,14 +261,14 @@
         </div>
 
         <div class="bloc_3">
-            <div>
+            <div class="liens_essentiels">
                 <p>Liens essentiels</p>
                 <div class="icon">
                         <img src="" alt="">
                 </div>
             </div>
 
-            <div>
+            <div class="seconds_liens">
                 <a href="">Accueil</a>
                 <a href="">Collection</a>
                 <a href="">Connecxion</a>

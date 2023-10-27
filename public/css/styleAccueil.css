@@ -140,9 +140,9 @@ section .liens .lien a{
 body .bloc_instruction{
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
     margin-right: 60px;
     margin-left: 60px;
+    padding: 50px;
 }
 body .bloc_instruction .bloc{
     width: 25%;
@@ -179,6 +179,42 @@ body .bloc_instruction .bloc .texte{
 body .bloc_instruction .bloc .texte p{
     text-align: justify;
 }
+/* fin instruction */
+
+/* debut profil */
+body .team{
+    background-color: rgb(240, 234, 234);
+    padding: 50px;   
+}
+body .team .title{
+    text-align: center;
+}
+body .team .images{
+    display: flex;
+    background-color: #219EBC;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    padding: 40px;
+    margin-top: 30px;
+}
+body .team .images .image_1, body .team .images .image_2{
+    width: 40%;
+}
+body .team .images .image_1 .photo, body .team .images .image_2 .photo{
+    width: 100%;
+    height: 500px;
+    background-color: #023047;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+body .team .images .image_1 .photo img, body .team .images .image_2 .photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 /* fin style body */
 body .footer{
@@ -189,7 +225,7 @@ body .footer{
     padding: 30px;
 }
 body .footer .bloc_1, body .footer .bloc_2, body .footer .bloc_3{
-    width: 30%;
+    width: 25%;
 }
 body .footer .bloc_1 .logo_footer{
     height: 40px;
@@ -208,4 +244,84 @@ body .footer .bloc_1 .texte{
 body .footer .bloc_1 .texte p{
     width: 100%;
     color: white;
+}
+body .footer .bloc_1 .logo_medias{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 60%;
+}
+body .footer .bloc_1 .logo_medias a div{
+    height: 30px;
+    width: 30px;
+}
+body .footer .bloc_1 .logo_medias a div img{
+    height: 100%;
+    width: 100%;
+}
+
+body .footer .bloc_2{
+    margin-top: 30px;
+}
+body .footer .bloc_2 .apropos{
+    display: flex;
+}
+
+body .footer .bloc_2 .apropos p{
+    color: white;
+}
+
+body .footer .bloc_2 .apropos .icon{
+    height: 10px;
+    width: 10px;
+    background-color: #8ECAE6;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+body .footer .bloc_2 .liens_footer{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+body .footer .bloc_2 .liens_footer a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+
+}
+body .footer .bloc_2 .liens_footer a:hover{
+    color: #fb8500;
+}
+
+/* style bloc 3 footer */
+body .footer .bloc_3{
+    margin-top: 30px;
+}
+body .footer .bloc_3 .liens_essentiels{
+    display: flex;
+}
+body .footer .bloc_3 .liens_essentiels p{
+    color: white;
+}
+body .footer .bloc_3 .liens_essentiels .icon{
+    height: 10px;
+    width: 10px;
+    background-color: #8ECAE6;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+body .footer .bloc_3 .seconds_liens{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+body .footer .bloc_3 .seconds_liens a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+
+}
+body .footer .bloc_3 .seconds_liens a:hover{
+    color: #fb8500;
 }
